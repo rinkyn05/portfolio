@@ -129,3 +129,46 @@ body {
   background: #353535;
   color: #bbbbbb;
 }
+
+/* Contenedor de Contactos y Proyectos */
+.contact-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: #1e1e1e;
+}
+
+.contact {
+  text-align: center;
+  background-color: #2b2b2b;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.projects {
+  background-color: #2b2b2b;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Espaciado adicional */
+.contact h2, .projects h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-list {
+  margin-top: 1rem;
+}
+
